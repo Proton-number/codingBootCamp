@@ -9,11 +9,11 @@ export const information = [
     name: "Tanya Sinclair",
     role: "UX Engineer",
   },
-  // {
-  //   img: John,
-  //   testimony:
-  //     "If you want to lay the best foundation possible i'd recommend taking this course. The depth the instructors go into is incredible. I now feel so confident about starting up as a professional devloper.",
-  //   name: "John Tarkpor",
-  //   role: "Junior Front-end Developer",
-  // },
+  {
+    img: John,
+    testimony:
+      "If you want to lay the best foundation possible i'd recommend taking this course. The depth the instructors go into is incredible. I now feel so confident about starting up as a professional devloper.",
+    name: "John Tarkpor",
+    role: "Junior Front-end Developer",
+  },
 ];
