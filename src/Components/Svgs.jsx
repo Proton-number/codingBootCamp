@@ -45,7 +45,7 @@ function Svgs() {
         }}
       />
 
-      <Box
+      <div
         sx={{
           position: "relative",
           padding: "20px",
