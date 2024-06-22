@@ -8,6 +8,7 @@ function Svgs() {
   return (
     <Box sx={{ position: "relative", bottom: "-250px" }}>
       <Box
+        id="box1"
         sx={{
           position: "relative",
           padding: "20px",
@@ -19,7 +20,6 @@ function Svgs() {
             left: { xs: "110px", sm: "40px", lg: "50px" },
             width: { xs: "70px", sm: "300px", lg: "150px" },
             height: { xs: "80px", sm: "100px", lg: "150px" },
-            backgroundImage: `url(${patternQuotes})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "contain",
           },
@@ -27,6 +27,7 @@ function Svgs() {
       />
 
       <Box
+        id="box2"
         sx={{
           position: "relative",
           padding: "20px",
@@ -38,14 +39,14 @@ function Svgs() {
             left: { xs: 0, sm: "284px", lg: "550px" },
             width: { xs: "330px", sm: "400px", lg: "600px" },
             height: { xs: "300px", sm: "500px" },
-            backgroundImage: `url(${patternBg})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "contain",
           },
         }}
       />
 
-      <div
+      <Box
+        id="box3"
         sx={{
           position: "relative",
           padding: "20px",
@@ -57,7 +58,6 @@ function Svgs() {
             left: 0,
             width: "100vw",
             height: "100px",
-            backgroundImage: `url(${patternCurve})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "contain",
             zIndex: "-1",
